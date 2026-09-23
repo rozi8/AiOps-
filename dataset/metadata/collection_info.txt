@@ -1,0 +1,67 @@
+DATASET COLLECTION INFORMATION
+================================
+
+Project:
+Implementasi AIOps untuk Deteksi Anomali Multivariat pada
+Infrastruktur Server Menggunakan Isolation Forest
+
+Dataset:
+infrastructure_metrics.csv
+
+Data Source:
+Homelab server
+
+Hostname:
+homelab
+
+Operating System:
+Debian GNU/Linux 10 (Buster)
+
+Kernel:
+4.19.0-27-amd64
+
+CPU:
+Intel Core i3 Gen 2
+4 cores
+~3.2 GHz
+
+RAM:
+4 GB DDR3
+
+Monitoring Stack:
+Node Exporter
+Prometheus
+
+Data Collector:
+Python
+
+Collection Interval:
+15 seconds
+
+Prometheus Scrape Interval:
+15 seconds
+
+Features:
+1. cpu_usage_percent
+2. memory_usage_percent
+3. load_1m
+4. swap_usage_percent
+5. disk_usage_percent
+6. disk_read_bytes_per_sec
+7. disk_write_bytes_per_sec
+8. network_rx_bytes_per_sec
+9. network_tx_bytes_per_sec
+
+Timestamp:
+timestamp
+
+Dataset Type:
+Normal baseline infrastructure metrics
+
+Purpose:
+Digunakan sebagai baseline kondisi normal infrastruktur
+sebelum dilakukan pengujian deteksi anomali multivariat
+menggunakan Isolation Forest.
+
+Collection Status:
+Ongoing

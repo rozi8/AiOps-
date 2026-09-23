@@ -1,0 +1,34 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Runtime logs
+logs/
+*.log
+
+# Prometheus runtime data
+prometheus/data/
+
+# Dataset runtime
+dataset/raw/
+dataset/processed/
+
+# ML generated artifacts
+ml/model/
+ml/results/
+
+
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
